@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  eyes: MyString
+  mouth: MyString
+  nose: MyString
+  ears: MyString
+
+two:
+  eyes: MyString
+  mouth: MyString
+  nose: MyString
+  ears: MyString

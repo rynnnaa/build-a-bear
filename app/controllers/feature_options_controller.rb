@@ -1,0 +1,2 @@
+class FeatureOptionsController < ApplicationController
+end

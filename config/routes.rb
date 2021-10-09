@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :feature_options
   resources :features
   resources :animals
   resources :users

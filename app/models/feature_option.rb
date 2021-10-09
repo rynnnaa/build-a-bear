@@ -1,0 +1,2 @@
+class FeatureOption < ApplicationRecord
+end

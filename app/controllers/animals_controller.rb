@@ -23,11 +23,11 @@ class AnimalsController < ApplicationController
     redirect_to animal_path(@animal)
   end
 
-  # def show
-  #   @user = User.find(session[:user_id])
-  #   @animal = Animal.find(param[:id])
-  #   @stuffed_animal = @animal.stuffed_animal.build(user_id: @user.id)
-  # end
+  def show
+    # @user = User.find(session[:user_id])
+    @animal = Animal.find(params[:id])
+    # @stuffed_animal = @animal.stuffed_animal.build(user_id: @user.id)
+  end
 
 
 

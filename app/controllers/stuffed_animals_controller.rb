@@ -1,0 +1,2 @@
+class StuffedAnimalController < ApplicationController
+end 

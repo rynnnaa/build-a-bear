@@ -10,14 +10,24 @@ DATA = {
   :user_keys =>
     ["name", "email", "password_digest", "age"],
     :users => [
-      ["Bobby", "bobby-o@gmail.com", "123". "7"]
-      ["Natalia", "natty-o@gmail.com", "123". "10"]
-      ["Ashton", "ash-o@gmail.com", "123". "17"]
-      ["Mo", "mo-o@gmail.com", "123". "14"]
-      ["Lillian", "lil-o@gmail.com", "123". "13"]
-      ["Connie", "con-o@gmail.com", "123". "12"]
-      ["Shelly", "shell-o@gmail.com", "123". "11"]
+      ["Bobby", "bobby-o@gmail.com", "123", 7],
+      ["Natalia", "natty-o@gmail.com", "123", 10],
+      ["Ashton", "ash-o@gmail.com", "123", 17],
+      ["Mo", "mo-o@gmail.com", "123", 14],
+      ["Lillian", "lil-o@gmail.com", "123", 13],
+      ["Connie", "con-o@gmail.com", "123", 12],
+      ["Shelly", "shell-o@gmail.com", "123", 11]
     ],
-    :animal_keys
+    :animal_keys =>
+      ["kind", "size", "demeanor", "color"],
+    :animals => [
+      ["Tiger", Small, Happy, Orange],
+      ["Bear", Large, Timid, Brown],
+      ["Dinosaur", Small, Goofy, Green],
+      ["Giraffe", Large, Happy, Yellow],
+      ["Dog", Medium, Playful, White],
+      ["Hippo", Ginormous, Sleepy, Purple],
+      ["Cat", Small, Angry, Orange]
+    ]
 
 }

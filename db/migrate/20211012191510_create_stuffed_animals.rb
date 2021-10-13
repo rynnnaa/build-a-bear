@@ -1,6 +1,6 @@
-class CreateStuffedAnimal < ActiveRecord::Migration[6.1]
+class CreateStuffedAnimals < ActiveRecord::Migration[6.1]
   def change
-    create_table :stuffed_animal do |t|
+    create_table :stuffed_animals do |t|
       t.integer "user_id"
       t.integer "animal_id"
 

@@ -1,5 +1,10 @@
 <h1> Animal </h1>
-<h3> Kind: <%= @animal.kind %></h3>
-<h3> Size: <%= @animal.size %></h3>
-<h3> Demeanor: <%= @animal.demeanor %></h3>
-<h3> Color: <%= @animal.color %></h3>
+<h2> Kind: <%= @animal.kind %></h2>
+<h2> Size: <%= @animal.size %></h2>
+<h2> Demeanor: <%= @animal.demeanor %></h2>
+<h2> Color: <%= @animal.color %></h2>
+
+<%= form_for @stuffed_animal do |f| %>
+<%%>
+
+<%= link_to 'Buy It', stuffed_animal_path %>

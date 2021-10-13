@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
   get 'signin', to: 'sessions#signin'
+  get 'signup', to: 'users#new'
   post '/signin', to: 'sessions#signin'
   get 'sessions/new', to: 'sessions#new'
-  get '/sessions/create', to: 'sessions#create'
+  get '/login', to: 'sessions#create'
   get '/sessions/destroy', to: 'sessions#destroy'
   delete '/logout', to: 'sessions#destroy'
-  resources :feature_options
+  resources :stuffed_animals
   resources :animals
   resources :users
   root 'welcome#home'

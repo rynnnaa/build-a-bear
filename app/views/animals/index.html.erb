@@ -1,6 +1,6 @@
 <h1>Animals</h1>
 <ul>
 <% @animals.each do |animal| %>
-  <%= link_to 'Go to #{animal.name}', animal_path(animal) %></li>
+  <h2><li><%= link_to "Go to #{animal.kind}", animal_path(animal) %></li></h2>
   <% end %>
   </ul>
